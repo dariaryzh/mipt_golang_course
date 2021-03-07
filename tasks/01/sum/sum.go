@@ -1,6 +1,9 @@
 package sum
 
 func Sum(values []int) int {
-	// Your implementation
-	return 0
+	var s int
+	for _, i := range values {
+		s += i
+	}
+	return s
 }
